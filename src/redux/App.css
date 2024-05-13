@@ -1,0 +1,104 @@
+/* App.css */
+
+.app-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    input {
+      height: 30px;
+    }
+  }
+  
+  .add-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 3px;
+  }
+  
+  .add-button:hover {
+    background-color: #45a049;
+  }
+
+  .title { 
+    color: red
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    position: relative;
+  }
+
+  
+.todo-item input {
+  font-size: 16px; 
+  padding: 5px;
+  width: 60%; 
+  box-sizing: border-box;
+}
+  
+  .todo-text {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+  }
+  
+  .edit-button,
+  .delete-button,
+  .save-button,
+  .cancel-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 3px;
+  }
+  
+  .edit-button:hover,
+  .delete-button:hover,
+  .save-button:hover,
+  .cancel-button:hover {
+    background-color: #1e87db;
+  }
+  
+  .edit-button,
+  .delete-button {
+    background-color: #e57373;
+  }
+  
+  .edit-button:hover,
+  .delete-button:hover {
+    background-color: #f44336;
+  }
+  
